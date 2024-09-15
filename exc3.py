@@ -44,8 +44,9 @@ while True:
 # START
 beer: int = 1
 age: int = int(input('enter age: '))
-while age>=18 and beer<=10:
-    beer +=1
-    print('have a beer')
+while beer<=10::
+    if age >= 18
+        beer +=1
+        print('have a beer')
     age: int = int(input('enter age: '))
 # END
